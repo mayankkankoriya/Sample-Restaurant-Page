@@ -1,0 +1,142 @@
+*{
+    font-family:'roboto',Arial, Helvetica, sans-serif;
+}
+/* header styles*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+    padding: 0 24px;
+}
+
+.nav-items-container{
+    display: flex;
+    align-self: center;
+}
+.nav-items-container>nav{
+  margin-right: 32px;
+  font-size: 14px;
+
+}
+.brand-name{
+    color: orange;
+    font-size: 20px;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.nav-list> li{
+    margin-right: 9px;
+}
+
+.nav-list>li:last-child{
+    margin-right: 0;
+}
+
+.nav-list >li.active {
+    border-bottom: 1px solid orange;
+}
+
+.user-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 1px solid #eaeaea;
+    background: #eaeaea;
+}
+
+/*.hader styles */
+
+/* Hero section styles */
+.hero{
+    margin-bottom: 16px;
+}
+
+.hero >.img-container {
+    width:100%;
+    display: grid;
+   justify-content:center;
+   padding: 8px;
+}
+
+.quote{
+   
+    font-size: 2.5rem;
+    cursor: pointer;
+
+}
+
+.author{
+    font-size: 1.5rem;
+    text-align: right;
+}
+/* Hero section styles */
+
+/* title section style */
+.meals > .title-section{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.title-section > .title {
+ text-transform: uppercase;
+ color: orange;
+
+}
+
+.search-container input {
+    height: 32px;
+    border-radius: 24px;
+    outline: none;
+    border: 1px solid #eaeaea;
+    padding: 8px 16px;
+}
+
+/* title section style */
+
+/* .pills styles */
+.pills {
+    display: flex;
+    margin-bottom: 16px;
+
+}
+
+.pills .pills-items {
+  margin-right: 16px;
+  border-radius: 24px;
+  border: 1px solid #eaeaea;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.pill-count {
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+}
+
+/* .pills styles */
+/* Foods-cards styles */
+.Foods-cards-container{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+}
+
+.Foods-card {
+    border: 1px solid #eaeaea;
+    border-radius: 8px ;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.Foods-card-thumbnail {
+height: auto;
+max-width: 100%;
+}
